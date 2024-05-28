@@ -323,7 +323,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
     flex-direction: row;
     margin-right:30px;
     margin-left:120px;
-    background-image: url("officialdrink.jpg");
+    background-image: url("images/officialdrink.jpg");
     display: flex;
     background-repeat: no-repeat ;
     overflow: hidden;
@@ -359,7 +359,7 @@ input[type='date']::-webkit-calendar-picker-indicator {
     width: 600px;
     height: 420px;
     overflow: hidden;
-    background-image: url("officialfood.jpg");
+    background-image: url("images/officialfood.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
