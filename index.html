@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascot Fine Dining</title>
+   
+    <!-- Vendor CSS File -->
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+
+      <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main css file -->
+    <link href="style.css" type="text/css"  rel="stylesheet" />
+
+    <!-- Font file -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+    <!-- Font file -->
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+
+<body>
+    <!-- Header -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="logo">
+      <img src="White logo - no background.png" class="ascot-logo">
+    </div>
+
+    <nav id="navbar" class="login" class="navbar li" class="navbar ul">
+    <nav id="navbar" class="navbar li" class="navbar ul">
+      <div class="navbar">
+      <ul>
+        <a href="#home-page" class="hmpg">Home</a>
+      </ul>
+      <ul>
+        <a href="#reservation" class="rsv">Reservation</a>
+      </ul>
+      <ul>
+        <a href="#menu" class="mnu">Menu</a>
+      </ul>
+      <ul>
+        <a href="#about" class="abt">About</a>
+      </ul>
+      </div>
+    </nav>
+</nav>
+    </div>
+    </header>
+
+     <!-- Landing Page -->
+<section id= "home-page">
+        <div class="home">
+          <div class="container">
+            <h2>
+              <span>Kitchen & Bar</span>
+            </h2><br>
+            <p>
+              Elevate your dining experience to new heights of sophistication and flavor at Ascot Fine Dining. Step into a realm where culinary mastery meets refined ambiance, where each dish is crafted with passion and precision to tantalize your senses and leave an indelible mark on your palate.
+            </p>
+            <div> 
+              <a href="#reservation" class="btn-book">Book Table</a>
+            </div>
+            </div>
+      </div>
+</section>
+
+    <!-- Reservation Page -->
+<section id="reservation" class="reservation">
+    <div class="reservation">
+      <form action="homepage" method="post" class="form">
+        <h5> Make a reservation</h5>
+    
+        <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="text" name="name" placeholder="Name" />
+        </div>
+        <div class="input-field">
+          <i class="material-icons">&#xe0ba;</i>
+          <input type="contact" name="contact" placeholder="Contact" />
+        </div>
+        <div class="input-field">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <div class="input-fieldguest">
+          <i class="material-icons">&#xe7fc;</i>
+          <label for="text">Guests</label>
+          <input type="number" name="guest" placeholder="Guests" value="0" min="0"/>
+        </div>
+        <div class="input-field">
+          <i style="font-size:20px" class="fa">&#xf073;</i>
+          <input type="date" name="date" placeholder="yyyy-mm-dd" value="" min="2024-04-01" max="2025-12-31" />
+        </div>
+        <div class="input-field">
+          <i style='font-size:20px' class='far'>&#xf017;</i>
+          <label for="time">Time</label>
+          <input type="time" name="time" value="Time" min="12:00" max="21:00" />
+        </div>
+        <input type="submit" name="submit" value="Submit" class="btn solid" />
+        </form>
+  </div>
+</section>
+    <!-- Menu page -->  
+<section id="menu">
+    <div class="menu">
+      <div class="menua">
+        <a href="drinks.html">
+          <h4>DRINKS</h4></a>
+      </div>
+      <div class="menub"> 
+        <a href="food.html">
+          <h4>FOOD</h4></a>
+      </div>
+    </div>
+</section>
+<!-- Footer -->
+<section id="about">
+  <div class="footer">
+    <div class="abot">
+      <h2>
+    <span>About Us</span>
+      </h2><br>
+    <p>At Ascot Fine Dining, we believe that dining is not just about eating, but about experiencing the art of cuisine. Nestled in the heart of Nairobi, we offer an exquisite culinary journey that combines sophistication, elegance, and the finest ingredients to create memorable meals.</p><br>
+    </div> 
+    <div class="info">
+     <div class="time">
+      <h6>
+      <span>OPEN HOURS</span></h6><br>
+      <p>Monday&nbsp; -&nbsp; Sunday &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  12:00pm - 10:00pm</p>
+      <p>Happy &nbsp; Hour   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  4:00pm -  6:00pm</p>
+    </div>
+     <div class="location">
+        <span><h6>LOCATION</h6></span><br>
+       <p><i class="fa fa-location-arrow" style="font-size:20px"></i>&nbsp;  &nbsp;Westlands, Muthithi Road</p></i>
+     </div>
+     <div class="phone">
+       <span><h6>CONTACT US</h6></span>
+       <p><i class="material-icons" style="font-size:35px">&#xe325;</i> &nbsp;&nbsp;Phone<br>
+        &nbsp;&nbsp;+254712345678</i>
+      </p>
+       <p><i class="fa fa-envelope" style="font-size:30px; margin-top:7px;"></i>&nbsp; &nbsp;&nbsp;Email<br>
+        &nbsp;&nbsp;&nbsp;ascotfine@mail.com</p>
+     </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
